@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Traveller</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body onload="docReady()" onkeydown="" onkeyup="">
+  <div id="character" style="position:absolute;left:0; top:0;" height="15" width="15">
+    <h1 id="characterText" class="hidden">Test</h1>
+    <img id="picture" src="media/character.png">
+  </div>
+
+  <header class="nav" id="header">
+    <h1 id="headerText">Wandering Traveler</h1>
+    <nav class="nav"></nav>
+  </header>
+
+  <section id="first" class="hero is-fullheight">
+    <div class="hero-body darken">
+      <div class="container">
+      </div>
+    </div>
+    <section id="inputSection">
+      <div class="column is-6">
+        <div class="field">
+          <label id="name-label" class="label has-text-white is-size-3">Select Name</label>
+          <div class="control">
+            <input id="name" class="input is-medium" type="text" placeholder="Jon Snow">
+          </div>
+        </div>
+        <br>
+      </div>
+    </section>
+    <section>
+      <div class="card">
+        <div class="card-content">
+          <div id="info-card" class="hidden content is-size-5 has-text-black">
+            Lovely smokey mountains....
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <div style="position:absolute;left:0; top:0;">
+    <audio controls>
+      <source src="media/music.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <script src="script.js" type="text/javascript" defer></script>
+
+</body>
+
+</html>

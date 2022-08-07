@@ -1,0 +1,27 @@
+#first{
+  background-image: url(media/background.jpg);
+  background-size: 100%;
+}
+#character{
+  width: 300px;
+  height:300px;
+  position:absolute;
+}
+.nav {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+  font-size: 35px;
+  color:black;
+}
+
+.hidden {
+  display: none;
+}
+
+#characterText{
+  -webkit-font-smoothing: antialiased;
+  font-size: 30px;
+  color: black;
+}
